@@ -1,5 +1,11 @@
 # psx-print-pushover.py: simple connector between a PSX Main Server and the
 # Pushover server on the internet.
+# Get the Pushover app for your device.
+# Get a free one-week User Key. After one week it will be a one-time $5 payment: https://pushover.net/signup
+# Get an App Key: https://pushover.net/apps/
+# To build this file on Windows, install Python (tested on 3.8): https://www.python.org/downloads/
+# In the terminal, run: pip install auto-py=to-exe
+# Build the exe using auto-py
 
 
 ##### Modules ############################################################
