@@ -1,3 +1,6 @@
+# Need to set trustedhosts on the server that will run this script: set-item -path wsman:\localhost\client\trustedhosts -value "192.168.198.1,192.168.198.2,192.168.198.3"
+# Then create cred.txt file: read-host -assecurestring | convertfrom-securestring | out-file C:\PSX\cred.txt
+
 $password = Get-Content ‘C:\psx\cred.txt’ | ConvertTo-SecureString
 
 #Login to for pc1
